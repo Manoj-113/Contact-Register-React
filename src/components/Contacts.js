@@ -4,9 +4,9 @@ import ContactForm from "./ContactForm"
 const Contacts = () => {
     return ( 
         <>
-        <div class = "jumboltron jumboltron-fluid">
+        <div class = "jumbotron jumbotron-fluid">
             <div class = "container">
-                <h1 class = "display-4">Contact Register</h1>
+                <h1 class = "display-4 text-center">Contact Register</h1>
             </div>
         </div>
 
