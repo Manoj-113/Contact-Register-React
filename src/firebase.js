@@ -1,4 +1,6 @@
-
+import *as firebase from 'firebase';
+  
+  
   var firebaseConfig = {
     apiKey: "AIzaSyC4n_U478NJTIy8aqKwB3ivUfRtfiJMSz4",
     authDomain: "contact-register-crud.firebaseapp.com",
