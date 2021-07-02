@@ -1,10 +1,17 @@
 import React from 'react';
 import ContactForm from "./ContactForm"
+import firebaseDb from "../firebase"
 
 const Contacts = () => {
 
     const addOrEdit = object => {
-
+        firebaseDb.child('contacts').push(
+            obj,
+            err=>{
+                if(err)
+                console.log(err)
+            }
+        )
     }
 
     return ( 

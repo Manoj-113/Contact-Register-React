@@ -11,4 +11,6 @@ import *as firebase from 'firebase';
     appId: "1:322323713512:web:af0f5e5f0f38954cd3a85d"
   };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+  var firDb = firebase.initializeApp(firebaseConfig);
+
+  export default firDb.database().ref();
